@@ -30,7 +30,7 @@
     color: white;
     text-align: center;
     padding: 20px 9%;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
     margin-top: 50px;
@@ -39,3 +39,4 @@
     footer p {
     font-size: 14px;
 }
+    

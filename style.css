@@ -1,0 +1,41 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+
+}
+
+  body {
+    color:  #f0789e;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left : 0;
+    width: 100%;
+    padding: 25px 9%;
+    background: #f0789e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 95;
+  }
+
+  footer {
+    background: #f0789e;
+    color: white;
+    text-align: center;
+    padding: 20px 9%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+    footer p {
+    font-size: 14px;
+}
